@@ -135,7 +135,7 @@ body{
 
 
 
-/************************  Header ************************/
+/************************  Top Header ************************/
 
 
 /************************  Header ************************/
@@ -1173,6 +1173,116 @@ h2{
 /************************  Appointments ************************/
 
 
+/************************  Appointments__ 2 ************************/
+
+.appoint-page2 {
+	margin: 50px 0;
+}
+
+.appoint-page2 .block-app{
+    background-color: #fff;
+    border-radius: 20px;
+    -webkit-box-shadow: 3px 3px 20px 0 rgba(0, 0, 0, 0.07);
+    -moz-box-shadow: 3px 3px 20px 0 rgba(0, 0, 0, 0.07);
+    -o-box-shadow: 3px 3px 20px 0 rgba(0, 0, 0, 0.07);
+    box-shadow: 3px 3px 20px 0 rgba(0, 0, 0, 0.07);
+    height: auto;
+    margin: 0 auto 25px auto;
+    width: 90%;
+}
+
+.appoint-page2 .block-app .title-app{
+    background-color: #fb9090;
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.appoint-page2 .block-app .body-app{
+    border-radius: 0 0 20px 20px ;
+    padding: 20px 20px;
+}
+
+
+.appoint-page2 .block-app .body-app h3{
+    color: #bbb;
+    font-family: font-light;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 5px 0;
+    margin-top: 20px;
+} 
+
+.appoint-page2 .block-app .body-app span{
+    color: #fb9090; 
+    font-weight: 500; 
+    font-family: font-regular;
+    font-size: 21px;
+}
+
+.appoint-page2 .block-app .body-app img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.appoint-page2 .block-app .body-app .block_center img{width: 25px; height: 25px; }
+
+.appoint-page2 .block-app .body-app .block_right h3{
+    color: #bbb;
+    font-family: font-light;
+    font-size: 18px;
+    text-transform: capitalize;
+    padding: 5px 0;
+    margin-top: 20px;
+} 
+
+.appoint-page2 .block-app .body-app .block_right img{width: 25px; height: 25px; border-radius: 0;}
+
+.appoint-page2 .block-app .body-app a.offer-details{
+    background-color: #575757;
+    border: none;
+    padding: 12px 50px;
+    color: #fff;
+    font-size: 17px;
+}
+
+.appoint-page2 .block-app .body-app a.offer-details:hover{text-decoration: none;}
+
+.appoint-page2 .block-app .body-app a{margin: 50px 0;}
+
+.appoint-page2 .block-app .body-app .checked {color: orange !important;}
+
+.appoint-page2 .block-app .body-app .fas{
+    color: #000;
+    font-size: 16px;
+    text-align: center;
+}
+
+.appoint-page2 .block-app .body-app p{
+    color: #fb9090;
+    font-size: 16px;
+    font-family: font-regular;
+    font-weight: 500;
+    /* text-transform: capitalize; */
+    margin-top: 38px;
+}
+
+.appoint-page2 .block-app .body-app ul.details li span{color: #adabab; margin-right: 15px;}
+
+.appoint-page .block-app .title-app p{
+    color: #fff;
+    font-size: 17px;
+    font-family: font-light;
+    font-weight: 300;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+/************************  Appointments___ 2 ************************/
+
+
 /************************  General Css ************************/
 
 .breadcrumb {
@@ -1233,6 +1343,25 @@ select{
     
 }
 
+.image_header{
+    background: url(../images/bg-banner.png) no-repeat center center;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    min-height: 147px;
+    margin-top: -45px;
+}
+
+.image_header h3{
+    color: #fff;
+    font-family: font-light;
+    font-size: 22px;
+    text-align: center;
+    text-transform: capitalize;
+    position: relative;
+    top: 48px;
+}
 
 /************************  General Css ************************/
 
