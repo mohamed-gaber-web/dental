@@ -150,6 +150,13 @@ body{
     min-height: 600px;
 }
 
+.owl-theme .owl-nav.disabled + .owl-dots{display: none;}
+
+.no-js .owl-carousel, .owl-carousel.owl-loaded {
+    display: block;
+    margin-top: -46px;
+}
+
 .header-info{
     position: absolute;
     right: 0;
