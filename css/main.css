@@ -139,18 +139,23 @@ body{
 
 
 /************************  Header ************************/
-.header{
-    background: url(../images/banner.png) no-repeat center center;
+/* .header{
+    background: rgba(255, 213, 213, 0.41);
     min-height: 500px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    bottom: 43px;
+} */
+
+.owl-carousel{position: relative;}
+
+.owl-carousel img{
+    min-height: 600px;
+}
+
+.header-info{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 50%;
+    z-index: 200000;
 }
 
 .header .form-control{
