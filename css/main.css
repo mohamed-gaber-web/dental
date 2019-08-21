@@ -147,7 +147,7 @@ body{
 .owl-carousel{position: relative;}
 
 .owl-carousel img{
-    min-height: 600px;
+    min-height: auto;
 }
 
 .owl-theme .owl-nav.disabled + .owl-dots{display: none;}
