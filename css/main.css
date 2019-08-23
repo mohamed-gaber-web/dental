@@ -1303,15 +1303,31 @@ h2{
     height: auto;
     margin: 0 auto 25px auto;
     width: 100%;
+    padding-bottom: 20px;
 }
-
-
-
 
 
 .search_filter .block-app .body-app{
     border-radius: 0 0 20px 20px ;
     padding: 0;
+}
+
+.search_filter .page-link{
+    background-color: transparent;
+    border: none;
+    color: #adacac;
+}
+
+.search_filter li.page-item{
+    border: 1px solid #ff8787;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    padding: 3px;
+    background-color: #fff;
+    margin-right: 10px;
 }
 
 .search_filter .no-js .owl-carousel, .owl-carousel.owl-loaded{margin-top: 0;}
@@ -1452,6 +1468,17 @@ h2{
     font-size: 15px;
 }
 
+.search_filter .owl-theme .owl-dots {
+    position: relative;
+    bottom: 21px;
+}
+
+.search_filter .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #ff8787;
+}
+
+.search_filter .owl-theme .owl-nav{display: none;}
+
 .form_filter{
     background-color: #fff;
     border-radius: 20px;
@@ -1459,10 +1486,9 @@ h2{
     -moz-box-shadow: 3px 3px 20px 0 rgba(0, 0, 0, 0.07);
     -o-box-shadow: 3px 3px 20px 0 rgba(0, 0, 0, 0.07);
     box-shadow: 3px 3px 20px 0 rgba(0, 0, 0, 0.07);
-    height: 500px;
-    margin: 0 auto 25px auto;
-    width: 100%;
-    position: relative;
+    height: auto;
+    padding-bottom: 20px;
+    margin: 50px 0;
 }
 
 .form_filter .head{
@@ -1473,17 +1499,25 @@ h2{
     color: #fff;
     font-family: font-bold;
     font-size: 16px;
-
 }
 
-.form_filter form{margin: 37px 8px;}
+.form_filter form{margin: 40px 8px;}
 
 .form_filter .parent {
     padding-left: 30px;
     margin-bottom: 12px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 14px;
     font-family: font-light;
+}
+
+.form_filter h5{
+    font-size: 15px;
+    font-family: font-bold;
+    font-weight: 500;
+    color: #ff8787;
+    text-transform: capitalize;
+    margin-bottom: 15px;
 }
 
 
