@@ -75,6 +75,10 @@
   .page-profile .profile-text{width: 85%;}
 
   .form-row {flex-direction: column;}
+
+  .header_search .form-control{border: none !important;}
+  
+  .search_filter .block-app{padding-left: 21px;}
    
   }
   
@@ -182,4 +186,8 @@
 .login {margin-top: 13px;}
 
 .banner{height: auto;}
+
+.header_search .form-control{border: none !important;}
+
+.search_filter .block-app{padding-left: 21px;}
 }
